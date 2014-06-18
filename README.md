@@ -7,7 +7,7 @@ This is straight from [parse-diff](https://github.com/sergeyt/parse-diff). I jus
 ## JavaScript Usage Example
 
 ```javascript
-var parse = require('parse-diff');
+var parse = require('diff-parse');
 var diff = ''; // input diff string
 var files = parse(diff);
 console.log(files.length); // number of patched files
