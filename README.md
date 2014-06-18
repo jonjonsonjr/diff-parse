@@ -4,6 +4,8 @@
 
 This is straight from [parse-diff](https://github.com/sergeyt/parse-diff). I just compiled the coffeescript to javascript because coffeescript complicates things if you just want to use the module.
 
+I also strip the first character for each line because I'm using this for git diffs. It was keeping the '+', '-', and ' ' before the text on each line.
+
 ## JavaScript Usage Example
 
 ```javascript
